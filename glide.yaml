@@ -1,0 +1,6 @@
+package: .
+import:
+- package: flag
+- package: fmt
+- package: os
+- package: strings
