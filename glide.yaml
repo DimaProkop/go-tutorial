@@ -1,6 +1,5 @@
 package: .
 import:
-- package: flag
-- package: fmt
-- package: os
-- package: strings
+- package: github.com/julienschmidt/httprouter
+- package: github.com/stretchr/testify/require
+- package: github.com/rs/cors
