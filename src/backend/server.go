@@ -17,6 +17,7 @@ func StartWebServer(address string) {
 
 	//CORS filter ...
 	handler := cors.Default().Handler(router)
+	//
 	router.GET(route.EXECUTIONS_URL, controller.GetExecution)
 	router.GET(route.RESULTS_URL, controller.GetResults)
 	router.POST(route.STOP_EXECUTION_URL, controller.StopExecution)
