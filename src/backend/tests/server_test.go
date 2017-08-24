@@ -18,7 +18,7 @@ func TestRequests(t *testing.T) {
 
 	recorder := doGet(route.EXECUTIONS_URL, controller.GetExecution)
 	assert.Equal(t, http.StatusOK, recorder.Code)
-
+	//adsfadsfasdf
 	recorder = doGet(route.RESULTS_URL, controller.GetResults)
 	assert.Equal(t, http.StatusOK, recorder.Code)
 }
